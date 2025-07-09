@@ -1,0 +1,111 @@
+body {
+         font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+        font-family: "Libertinus Math", system-ui;
+}
+.bg-green{
+    background-color: #3F8271;
+}
+.bg-green2{
+    background-color: #51786a;
+}
+.big-font-grow{
+    font-size: 6vw;
+
+}
+.big-font-grow2{
+    font-size: 3vw;
+
+}
+.medium-font-grow{
+    font-size: 3vw
+}
+.medium-font-grow2{
+    font-size: clamp(16px, 2vw, 24px)
+}
+.dropdown-menu.fullwidth-dropdown1 {
+  position: absolute !important;
+  top: 100%; 
+  left: 16%;
+  right: 0;
+  width: 90vw !important; 
+  
+  border-radius: "rounded"; 
+  margin: 0; 
+  box-sizing: border-box !important;
+  z-index: 1050; 
+  background-color:#51786a;
+}
+.dropdown-menu.fullwidth-dropdown2 {
+  position: absolute !important; 
+  top: 100%;  
+  left: -84%;
+  right: 0;
+  width: 90vw !important; 
+  
+  border-radius: "rounded"; 
+  margin: 0; 
+  box-sizing: border-box !important;
+  z-index: 1050; 
+  background-color:#51786a;
+}
+.dropdown-menu.fullwidth-dropdown3 {
+  position: absolute !important; 
+  top: 100%;  
+  left: -184%;
+  right: 0;
+  width: 90vw !important; 
+  
+  border-radius: "rounded";
+  margin: 0; 
+  box-sizing: border-box !important;
+  z-index: 1050; 
+  background-color:#51786a;
+}
+
+.dropdown-menu.fullwidth-dropdown4 {
+  position: absolute !important; 
+  top: 100%;  
+  left: -284%;
+  right: 0;
+  width: 90vw !important; 
+  
+  border-radius: "rounded";
+  margin: 0; 
+  box-sizing: border-box !important;
+  z-index: 1050; 
+  background-color:#51786a;
+}
+
+.dropdown-menu.fullwidth-dropdown5 {
+  position: absolute !important; 
+  top: 100%;  
+  left: -384%;
+  right: 0;
+  width: 90vw !important; 
+  
+  border-radius: "rounded";
+  margin: 0; 
+  box-sizing: border-box !important;
+  z-index: 1050; 
+  background-color:#51786a;
+}
+
+
+.bg-clear{
+  background-color: #E4D59B;
+}
+.bg-img {
+  background-image:url(images/palafito.jpg);
+  background-size: cover;
+  background-position: center top; 
+  background-repeat: no-repeat;
+  position: relative;
+  background-clip: padding-box;
+  min-height: 70vh;
+}
+.z-3{
+  z-index: 3;
+}

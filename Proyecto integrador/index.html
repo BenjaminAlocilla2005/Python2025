@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>proyecto reloaded</title>
+    
+    <!--#bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    
+    <!--#bootstrapicons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" 
+    integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+
+    <!--#googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!--#cssfile-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-green ">
+      <div class="row justify-content-around w-100 mx-0">
+        <div class="col justify-content-center ">
+          <a href="index.html" class="navbar-brand mb-0" style="font-family: Libertinus Math, system-ui;">
+        
+          <img class="d-inline-block aling-top" src="images/logo.jpg" width="40" height="40"> 
+          <span >Voces del Archipiélago</span>
+          </a>
+        </div>
+
+        
+
+
+        <div class="col mt-1 me-1 position-absolute top-0 end-0" >
+          <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          class="navbar-toggler position-absolute top-0 end-0"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon " style="width: 25px; height: 32px;"></span>
+          </button>
+        </div>
+
+        
+
+        <div class="col">
+          <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+            
+            
+            <form class="d-flex p-1">
+              <input type="text" class="form-control rounded-pill" placeholder="Buscar" style="min-width: 70px;">
+              <button type="submit" class="btn btn-white rounded-pill"><i class="bi bi-search"></i></button>
+
+            </form>
+      
+
+            <ul class="navbar-nav">
+          
+              <li class="nav-item dropdown">
+            
+                <a href="#" class="nav-link active dropdown-toggle"
+                id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                  Editores
+                </a>
+            
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+                  <li>
+                    <a href="editor.html" class="dropdown-item">Como ser editor</a>
+                  </li>
+
+                  <li>
+                    <a href="sesion.html" class="dropdown-item">Inicia Sesión</a>
+                  </li>
+
+                </ul>
+              </li>
+          
+            <li class="nav-item dropdown">
+            
+                <a href="#" class="nav-link active dropdown-toggle"
+                id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                  Idioma
+                </a>
+            
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+                  <li>
+                    <a href="#" class="dropdown-item">Español</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="dropdown-item">Inglés</a>
+                  </li>
+
+                </ul>
+              </li>
+          
+              <li class="nav-item dropdown">
+            
+                <a href="#" class="nav-link active dropdown-toggle"
+                id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                  Home
+                </a>
+            
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+                  <li>
+                    <a href="#" class="dropdown-item">Modo oscuro</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="dropdown-item">Otras opciones</a>
+                  </li>
+              
+                  <li>
+                    <a href="#" class="dropdown-item">Otras opciones</a>
+                  </li>
+
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+    </nav>
+
+    
+    <div class="container-fluid p-0">
+      <div class="row bg-dark w-100 m-0 p-0">
+    
+        <div class="col-5 bg-green g-1 border-end border-dark d-flex flex-column">
+          <div class="flex-fill d-flex justify-content-center align-items-center text-center">
+            <h2 class="big-font-grow text-light">Repositorio de Chiloé</h2>
+          </div>
+          <div class="flex-fill d-flex justify-content-center align-items-center text-center">
+            <p class="medium-font-grow text-light">
+              Plataforma digital orientada a<br>
+              preservar y difundir la cultura<br>
+              de la isla de Chiloé
+            </p>
+          </div>
+        </div>
+
+        <div class="col-7 bg-dark g-1 border-start border-dark">
+         <img src="images/SHI-lo-e.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+        </div>
+
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand navbar-light bg-white ">
+      <ul class="navbar-nav w-100">
+          
+        <li class="nav-item dropdown  text-center" style="width: 33.3%;">
+            
+                <a href="#" class="nav-link active dropdown-toggle"
+                id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                  <h1 class="bi bi-map"></h1>
+                </a>
+            
+                <div class="dropdown-menu fullwidth-dropdown1 " aria-labelledby="navbarDropdown">
+                  <div class="row bg-green2 m-0">
+                    <div class="col flex-grow-1 bg-green2 m-1 p-0">
+                      <iframe 
+                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47234.785!2d-73.7856!3d-42.4827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961e34c5c1c5d5d5%3A0x5c8a3a7f2e3b2b4e!2sCastro%2C%20Los%20Lagos%2C%20Chile!5e0!3m2!1sen!2sus!4v1234567890"
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                      </iframe>
+                    </div>
+                    <div class="col bg-green2 flex-grow-1 d-flex flex-column m-1 p-0">
+                      <div class="flex-fill d-flex justify-content-center align-items-center text-center">
+                        <h2 class="big-font-grow2 text-light">Castro</h2>
+                      </div>
+                      <div class="flex-fill d-flex justify-content-center align-items-center text-center">
+                        <p class="medium-font-grow2 text-light">
+                          Castro es la ciudad capital de<br>
+                          de la isla de Chiloé, fundada en<br>
+                          1567 por el español Martín<br>
+                          Ruiz de Gamboa, es famosa<br>
+                          por sus palafitos coloridos,<br>
+                          Iglesia de madera Patrimonio<br>
+                          de la Humanidad, gastronomía <br>
+                          marina y paisajes naturales.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col flex-grow-1 bg-green2 m-1 p-0 rounded text-end text-light">
+                      <img src="images/SHI-lo-e.jpg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 90%;">
+                      <a href="mapas.html" class="text-light">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+        </li>
+
+        <li class="nav-item dropdown  text-center" style="width: 33.3%;">
+            
+                <a href="#" class="nav-link active dropdown-toggle"
+                id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                  <h1 class="bi bi-camera2"></h1>
+                </a>
+            
+                <div class="dropdown-menu fullwidth-dropdown2 " aria-labelledby="navbarDropdown">
+                  <div class="container-fluid bg-green2 m-0">
+                    <div class="row bg-green2 flex-nowrap  m-1">
+                      <div class="col flex-fill">
+                        <img src="images/grid1.jpg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 100%;">
+                      </div>
+                      <div class="col flex-fill">
+                        <img src="images/grid2.jpg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 100%;">
+                      </div>
+                      <div class="col flex-fill">
+                        <img src="images/grid3.jpg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 100%;">
+
+                      </div>
+                      <div class="col flex-fill">
+                        <img src="images/grid4.jpg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 100%;">
+
+                      </div>
+
+                    </div>
+                    <div class="row bg-green2 flex-nowrap  m-1">
+                      <div class="col flex-fill">
+                        <img src="images/grid5.jpg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 100%;">
+
+                      </div>
+                      <div class="col flex-fill">
+                        <img src="images/grid5.jpg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 100%;">
+
+                      </div>
+                      <div class="col flex-fill">
+                        <img src="images/grid7.jpeg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 100%;">
+
+                      </div>
+                      <div class="col flex-fill">
+                        <img src="images/grid7.jpeg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 100%;">
+
+                      </div>
+                      
+                    </div>
+                    <div class="row bg-green2 flex-nowrap m-1">
+                      <div class="col flex-fill">
+                        <img src="images/grid9.jpg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 100%;">
+
+                      </div>
+                      <div class="col flex-fill">
+                        <img src="images/grid10.jpg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 100%;">
+
+                      </div>
+                      <div class="col flex-fill">
+                        <img src="images/grid11.jpg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 100%;">
+
+                      </div>
+                      <div class="col flex-fill">
+                        <img src="images/grid12.jpg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 100%;">
+
+                      </div>
+                    </div>
+                    <div class="row bg-green2 m-1  text-end">
+                      <a href="fotos.html" class="text-light" >Ver más</a>
+                    </div>
+                  </div>
+                </div>
+        </li>
+
+        <li class="nav-item dropdown text-center" style="width: 33.3%;">
+            
+                <a href="#" class="nav-link active dropdown-toggle"
+                id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                  <h1 class="bi bi-journals"></h1>
+                </a>
+            
+                <div class="dropdown-menu fullwidth-dropdown3 " aria-labelledby="navbarDropdown">
+                  <div class="row bg-green2 m-0">
+                    <div class="col flex-grow-1 bg-green2 m-1 p-0 text-light">
+                      tipo doc 1
+                    </div>
+                    <div class="col bg-green2 flex-grow-1 d-flex flex-column m-1 p-0">
+                      <div class="flex-fill d-flex justify-content-center align-items-center text-center">
+                        <a href="docs.html"><h2 class="big-font-grow2 text-light">Info</h2></a>
+                      </div>
+                      <div class="flex-fill d-flex justify-content-center align-items-center text-center">
+                        <p class="medium-font-grow2 text-light">
+                          infoinfo info infoinfo<br>
+                          infoinfo info infoinfo<br>
+                          infoinfo info infoinfo<br>
+                          infoinfo info infoinfo<br>
+                          infoinfo info infoinfo<br>
+                          infoinfo info infoinfo<br>
+                         
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col flex-grow-1 bg-green2 m-1 p-0">
+                      <img src="images/grid2.jpg" class="img-fluid border rounded" style="object-fit: cover; width: 100%; height: 100%;">
+                    </div>
+                  </div>
+                </div>
+        </li>
+       
+      </ul>
+    </nav>
+
+    <div class="container-fluid m-0">
+      <div class="row bg-green w-90 border rounded-3 flex-nowrap  m-1">
+        <div class="col my-2 flex-fill d-flex justify-content-center align-items-center text-center">
+          <a href="atractivos.html"><h1  class="text-light big-font-grow2">Atractivos Principales</h1></a>
+        </div>
+        <div class="col  my-2 flex-fill">
+          <img src="images/grid2.jpg" class="img-fluid border rounded-3" style="object-fit: cover; width: 100%; height: 100%;">
+        </div>
+        <div class="col  my-2 flex-fill">
+          <img src="images/grid3.jpg" class="img-fluid border rounded-3" style="object-fit: cover; width: 100%; height: 100%;">
+
+        </div>
+        <div class="col  my-2 flex-fill">
+          <img src="images/grid4.jpg" class="img-fluid border rounded-3" style="object-fit: cover; width: 100%; height: 100%;">
+
+      </div>
+
+      </div>
+        <div class="row border rounded-3  bg-green flex-nowrap  m-1">
+        
+        <div class="col my-2 flex-fill">
+          <img src="images/grid7.jpeg" class="img-fluid border rounded-3" style="object-fit: cover; width: 100%; height: 100%;">
+
+        </div>
+        <div class="col my-2 flex-fill">
+          <img src="images/grid7.jpeg" class="img-fluid border rounded-3" style="object-fit: cover; width: 100%; height: 100%;">
+
+        </div>
+        <div class="col my-2 flex-fill">
+          <img src="images/grid7.jpeg" class="img-fluid border rounded-3" style="object-fit: cover; width: 100%; height: 100%;">
+
+        </div>
+        <div class="col my-2 flex-fill d-flex justify-content-center align-items-center text-center">
+          <a href="cultura.html"><h1 class="text-light big-font-grow2">Cultura Huilliche</h1></a>
+
+        </div>
+                      
+      </div>
+      <div class="row border rounded-3 bg-green flex-nowrap m-1">
+        <div class="col my-2 flex-fill d-flex justify-content-center align-items-center text-center">
+         <a href="turismo.html"><h1 class="text-light big-font-grow2">Turismo</h1></a>
+        </div>
+        <div class="col my-2 flex-fill">
+          <img src="images/grid10.jpg" class="img-fluid border rounded-3" style="object-fit: cover; width: 100%; height: 100%;">
+
+          </div>
+        <div class="col my-2 flex-fill">
+          <img src="images/grid11.jpg" class="img-fluid border rounded-3" style="object-fit: cover; width: 100%; height: 100%;">
+
+        </div>
+        <div class="col my-2 flex-fill">
+          <img src="images/grid12.jpg" class="img-fluid border rounded-3" style="object-fit: cover; width: 100%; height: 100%;">
+
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <div class="container-fluid w-100 bg-green p-0" style="height: 20vh;">
+      <div class="row flex-fill m-2" >
+        <div class="col" style="width: 25%;">
+          <a href="#" class="navbar-brand mb-0" style="font-family: Libertinus Math, system-ui;">
+        
+          <img class="d-inline-block aling-top" src="images/logo.jpg" width="100vw" height="100vw"> 
+          
+          </a>
+
+        </div>
+        
+        <div class="col d-flex justify-content-center align-items-center  text-light  "style="width: 37.5%;">
+          <i class="medium-font-grow2" >
+            Enlaces de interes:<br>
+          <a href="acercade.html" class="text-light">
+            Acerca de<br>
+          </a>
+          <a href="FAQS.html"class="text-light">
+            FAQs
+          </a>
+        </i>
+        </div>
+        <div class="col d-flex justify-content-center align-items-center  text-light"style="width: 37.5%;">
+          <i class="medium-font-grow2" >
+            Contacto:<br>
+          
+            vocesdelarchipielago@gmail.com<br>
+         
+          
+            +56 9 9038 4598
+          </i>
+
+        </div>
+      </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
